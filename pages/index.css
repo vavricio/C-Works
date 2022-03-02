@@ -1,0 +1,14 @@
+@import "../vendor/normalize.css";
+@import "../vendor/fonts/fonts.css";
+@import "../blocks/page/page.css";
+@import "../blocks/header/header.css";
+@import "../blocks/header/__title/header__title.css";
+@import "../blocks/header/__subtitle/header__subtitle.css";
+@import "../blocks/main/main.css";
+@import "../blocks/repair/repair.css";
+@import "../blocks/repair/__title/repair__title.css";
+@import "../blocks/repair/__subtitle/repair__subtitle.css";
+@import "../blocks/repair/__form/repair__form.css";
+@import "../blocks/repair/__input/repair__input.css";
+@import "../blocks/repair/__button/repair__button.css";
+@import "../blocks/repair/__text/repair__text.css";

@@ -1,0 +1,13 @@
+.header__subtitle {
+    margin: 0 auto 0 28px;
+    padding: 4px 8px;
+    font-family: Roboto, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    color: #000000;
+    border-radius: 4px;
+    max-height: 20px;
+    background: #25E197;
+}
