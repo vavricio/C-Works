@@ -1,0 +1,10 @@
+.services__card {
+    padding: 40px;
+    max-width: 470px;
+    min-height: 284px;
+    border-radius: 16px;
+}
+
+.services__card:last-of-type {
+    margin-left: 20px;
+}

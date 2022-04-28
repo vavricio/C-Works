@@ -1,0 +1,7 @@
+.gallery__palette_size_big {
+    width: 100%;
+    max-width: 630px;
+    min-height: 552px;
+    border-radius: 10px;
+    background: #25E197;;
+}

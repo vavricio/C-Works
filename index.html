@@ -8,23 +8,94 @@
 </head>
 <body class="page">
 <header class="header">
-    <h2 class="header__title">C-Works</h2>
-    <p class="header__subtitle">мы открылись</p>
+    <div class="logo">
+        <h2 class="logo__title">C-Works</h2>
+        <p class="logo__subtitle">мы открылись</p>
+    </div>
 </header>
 <main class="main">
     <article class="repair">
         <h1 class="repair__title">Ремонт</h1>
         <h2 class="repair__subtitle">Плёночных фотоаппаратов</h2>
-        <form class="repair__form">
-            <input class="repair__input" type="text">
-            <button class="repair__button">Отремонтируйте камеру</button>
+        <form class="repair-form">
+            <div class="repair-form__wrapper">
+                <input class="repair-form__input" type="text">
+                <button class="repair-form__button">Отремонтируйте камеру</button>
+            </div>
+            <p class="repair-form__text">Напишите нам и мы свяжемся с вами.</p>
         </form>
-        <p class="repair__text">Напишите нам и мы свяжемся с вами.</p>
     </article>
-    <article class="gallery">
-
+    <section class="gallery">
+        <div class="gallery__wrapper gallery__wrapper_position_top">
+            <div class="gallery__image gallery__image_size_small"></div>
+            <div class="gallery__palette gallery__palette_size_small"></div>
+        </div>
+        <div class="gallery__wrapper gallery__wrapper_position_bottom">
+            <div class="gallery__palette gallery__palette_size_big"></div>
+            <div class="gallery__image gallery__image_size_big"></div>
+        </div>
+    </section>
+    <article class="article">
+        <p class="article__text">Мы ремонтируем плёночные фотоаппараты. Полносстью механические камеры, относительно современные камеры на электронике, проводим CLA камер, принимаем в зачёт оплаты сломаные тушки и объективы.</p>
+        <h2 class="article__title">Для энтузиастов, от энтузиастов 👈</h2>
+    </article>
+    <section class="services">
+        <div class="card services__card">
+            <h3 class="services__type">CLA</h3>
+            <h2 class="card__title services__title">Чистка камер.</h2>
+            <p class="card__text services__text">Замена уплотнителей, дампфера зеркала, смазка механизмов, юстировка.</p>
+            <p class="services__price">от 600</p>
+        </div>
+        <div class="card services__card">
+            <h3 class="services__type">CLA</h3>
+            <h2 class="card__title services__title">Чистка камер.</h2>
+            <p class="card__text services__text">Замена уплотнителей, дампфера зеркала, смазка механизмов, юстировка.</p>
+            <p class="services__price">от 600</p>
+        </div>
+    </section>
+    <section class="warranty">
+        <h2 class="warranty__header">Полная гарантия</h2>
+        <div class="warranty__wrapper">
+            <div class="card warranty__card">
+                <h2 class="card__title warranty__title">CLA</h2>
+                <p class="card__text warranty__text">После CLA мы даем гарантию на 1 год, в случае беды мы заново обслужим вашу камеру.</p>
+            </div>
+            <div class="card warranty__card">
+                <h2 class="card__title warranty__title">Ремонт</h2>
+                <p class="card__text warranty__text">После ремонта мы даем гарантию на 3 месяца или 6 месяцев.</p>
+            </div>
+            <div class="card warranty__card">
+                <h2 class="card__title warranty__title">Пайка и адаптация</h2>
+                <p class="card__text warranty__text">После пайки и адаптации питания мы даем гарантию на 1 год.</p>
+            </div>
+            <div class="card warranty__card">
+                <h2 class="card__title warranty__title">Осмотр</h2>
+                <p class="card__text warranty__text">Осмотр камеры — бесплатен, если мы что-то сломаем, поменяем деталь сами.</p>
+            </div>
+        </div>
+    </section>
+    <article class="article">
+        <h2 class="article__title">Поддержите нас 🤝</h2>
+        <a href="#" class="article__link-button">Напишите нам если хотите помочь!</a>
+        <p class="article__text">Мы ремонтируем плёночные фотоаппараты. Полносстью механические камеры, относительно современные камеры на электронике, проводим CLA камер, принимаем в зачёт оплаты сломаные тушки и объективы.</p>
     </article>
 </main>
-
+<footer class="footer">
+    <div class="footer__line"></div>
+    <div class="logo">
+        <h2 class="logo__title">C-Works</h2>
+        <p class="logo__subtitle">мы открылись</p>
+    </div>
+    <div class="footer__wrapper">
+        <form class="repair-form">
+            <div class="repair-form__wrapper">
+                <input class="repair-form__input" type="text">
+                <button class="repair-form__button">Отремонтируйте камеру</button>
+            </div>
+            <p class="repair-form__text">Напишите нам и мы свяжемся с вами.</p>
+        </form>
+        <p class="footer__copyright">© C-Works, 2021.</p>
+    </div>
+</footer>
 </body>
 </html>

@@ -1,14 +1,57 @@
 @import "../vendor/normalize.css";
 @import "../vendor/fonts/fonts.css";
 @import "../blocks/page/page.css";
+/* header */
 @import "../blocks/header/header.css";
-@import "../blocks/header/__title/header__title.css";
-@import "../blocks/header/__subtitle/header__subtitle.css";
+@import "../blocks/logo/logo.css";
+@import "../blocks/logo/__title/logo__title.css";
+@import "../blocks/logo/__subtitle/logo__subtitle.css";
+/* main */
 @import "../blocks/main/main.css";
+/* repair */
 @import "../blocks/repair/repair.css";
 @import "../blocks/repair/__title/repair__title.css";
 @import "../blocks/repair/__subtitle/repair__subtitle.css";
-@import "../blocks/repair/__form/repair__form.css";
-@import "../blocks/repair/__input/repair__input.css";
-@import "../blocks/repair/__button/repair__button.css";
-@import "../blocks/repair/__text/repair__text.css";
+@import "../blocks/repair-form/repair-form.css";
+@import "../blocks/repair-form/__wrapper/repair-form__wrapper.css";
+@import "../blocks/repair-form/__input/repair-form__input.css";
+@import "../blocks/repair-form/__button/repair-form__button.css";
+@import "../blocks/repair-form/__text/repair-form__text.css";
+/* gallery */
+@import "../blocks/gallery/gallery.css";
+@import "../blocks/gallery/__image/gallery__image.css";
+@import "../blocks/gallery/__image/_size/gallery__image_size_small.css";
+@import "../blocks/gallery/__image/_size/gallery__image_size_big.css";
+@import "../blocks/gallery/__palette/gallery__palette.css";
+@import "../blocks/gallery/__palette/_size/gallery__palette_size_small.css";
+@import "../blocks/gallery/__palette/_size/gallery__palette_size_big.css";
+@import "../blocks/gallery/__wrapper/gallery__wrapper.css";
+@import "../blocks/gallery/__wrapper/_position/gallery__wrapper_position_top.css";
+/* article */
+@import "../blocks/article/article.css";
+@import "../blocks/article/__text/article__text.css";
+@import "../blocks/article/__title/article__title.css";
+@import "../blocks/article/__link-button/article__link-button.css";
+/* services */
+@import "../blocks/services/services.css";
+@import "../blocks/services/__card/services__card.css";
+@import "../blocks/services/__type/services__type.css";
+@import "../blocks/services/__title/services__title.css";
+@import "../blocks/services/__text/services__text.css";
+@import "../blocks/services/__price/services__price.css";
+/* card */
+@import "../blocks/card/card.css";
+@import "../blocks/card/__title/card__title.css";
+@import "../blocks/card/__text/card__text.css";
+/* warranty */
+@import "../blocks/warranty/warranty.css";
+@import "../blocks/warranty/__wrapper/warranty__wrapper.css";
+@import "../blocks/warranty/__header/warranty__header.css";
+@import "../blocks/warranty/__title/warranty__title.css";
+@import "../blocks/warranty/__text/warranty__text.css";
+@import "../blocks/warranty/__card/warranty__card.css";
+/* footer */
+@import "../blocks/footer/footer.css";
+@import "../blocks/footer/__line/footer__line.css";
+@import "../blocks/footer/__wrapper/footer__wrapper.css";
+@import "../blocks/footer/__copyright/footer__copyright.css";

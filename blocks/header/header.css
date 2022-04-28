@@ -1,7 +1,4 @@
 .header {
     margin: 60px auto;
-    display: flex;
     max-width: 1120px;
-    justify-content: left;
-    align-items: center;
 }

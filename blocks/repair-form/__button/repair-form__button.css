@@ -1,15 +1,19 @@
-.repair__input {
+.repair-form__button {
     padding: 13px 16px;
-    max-width: 316px;
+    max-width: 221px;
     width: 100%;
     max-height: 50px;
     border: none;
-    background: rgba(142, 142, 152, 0.2);
-    border-radius: 8px 0 0 8px;
+    background: #47474C;
+    border-radius: 0 8px 8px 0;
     font-family: Roboto, Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
     color: #FFFFFF;
+}
+
+.repair-form__button::after {
+    content: '\0020 ✌️';
 }

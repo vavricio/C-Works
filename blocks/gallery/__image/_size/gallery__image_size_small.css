@@ -1,0 +1,8 @@
+.gallery__image_size_small {
+    margin: 0 20px 0 0;
+    width: 100%;
+    max-width: 448px;
+    max-height: 230px;
+    border-radius: 10px;
+    background: url("../../../../images/gallery/image-min.png");
+}

@@ -1,0 +1,9 @@
+.article {
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto 60px;
+    padding: 60px 0 0;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}

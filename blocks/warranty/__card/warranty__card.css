@@ -1,0 +1,11 @@
+.warranty__card {
+    margin-right: 20px;
+    padding: 20px;
+    max-width: 225px;
+    min-height: 113px;
+    border-radius: 10px;
+}
+
+.warranty__card:last-of-type {
+    margin-right: 0;
+}

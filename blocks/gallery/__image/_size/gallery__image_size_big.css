@@ -1,0 +1,8 @@
+.gallery__image_size_big {
+    margin: 0 0 0 20px;
+    width: 100%;
+    max-width: 730px;
+    max-height: 552px;
+    border-radius: 10px;
+    background: url("../../../../images/gallery/image-max.png");
+}

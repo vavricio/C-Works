@@ -1,0 +1,10 @@
+.services__price {
+    margin: 40px 0 0;
+    font-size: 14px;
+    line-height: 14px;
+    color: #25E197;
+}
+
+.services__price::after {
+    content: '\20B4';
+}
